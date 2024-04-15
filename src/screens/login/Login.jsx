@@ -13,7 +13,7 @@ const login = () => {
       console.log(password.current.value);
   
       axios.put(
-        "https://gray-handsome-walkingstick.cyclic.app/api/v1/students/login",
+        "https://silly-overshirt-pig.cyclic.app/api/v1/students/login",
         {
           email: email.current.value,
           password: password.current.value,

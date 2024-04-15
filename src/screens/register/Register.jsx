@@ -21,7 +21,7 @@ const Register = () => {
     console.log(course.current.value);
 
     axios.post(
-      "https://gray-handsome-walkingstick.cyclic.app/api/v1/students/register",
+      "https://silly-overshirt-pig.cyclic.app/api/v1/students/register",
       {
         email: email.current.value,
         password: password.current.value,

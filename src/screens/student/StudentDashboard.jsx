@@ -6,7 +6,7 @@ const StudentDashboard = () => {
     const [newArr , setNewArr] = useState([])
 
    useEffect(() => {
-    axios.get('https://gray-handsome-walkingstick.cyclic.app/api/v1/students')
+    axios.get('https://silly-overshirt-pig.cyclic.app/api/v1/students')
     .then((res)=>{
         allStudent.push(res.data.students)
         setAllStudent([...allStudent])
@@ -22,7 +22,7 @@ const StudentDashboard = () => {
 
    function deleteStudent(index) {
     console.log(index);
-    axios.delete(`https://gray-handsome-walkingstick.cyclic.app/api/v1/students/${index._id}`)
+    axios.delete(`https://silly-overshirt-pig.cyclic.app/api/v1/students/${index._id}`)
     .then((res)=>{
         console.log(res.data);
         // allStudent.push(res.data.students)
